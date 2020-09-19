@@ -2,7 +2,7 @@ using System;
 
 namespace Howest.Prog.CoinChop.Core.Common
 {
-    public class EntityNotFoundException : Exception
+    internal class EntityNotFoundException : Exception
     {
         public EntityNotFoundException() : base()
         {
